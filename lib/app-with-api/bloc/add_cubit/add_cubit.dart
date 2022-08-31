@@ -227,7 +227,7 @@ class AddCubit extends Cubit<AddState> {
 
     loadImage = true;
     emit(UploadImageLoad());
-    const url = baseUrl + "/image/upload";
+    const url = baseUrl + "/image/dawnload";
     var request = http.MultipartRequest("POST", Uri.parse(url));
 
     var multipartFile = await http.MultipartFile.fromPath(

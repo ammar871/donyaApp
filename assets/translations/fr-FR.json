@@ -71,7 +71,6 @@
   "الرقم السرى": "Mot de passe",
   "تبديل الحساب": "changer de compte",
   "حذف": "Supprimer",
-
   "Afghanistan": "Afghanistan ",
   "Albania": "Albania ",
   "Algeria": "Algeria",
@@ -120,5 +119,8 @@
   "Japan": "Japan",
   "China": "China",
   "Malaysia": "Malaysia",
-  "Burma": "Burma"
+  "Burma": "Burma",
+  "اضافة الى جهات الاتصال": "Ajouter aux contacts",
+  "الموقــع على الخريطـة": "Emplacement sur la carte",
+  "المهن الحرة": "Fonction libérale"
 }

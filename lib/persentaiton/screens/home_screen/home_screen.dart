@@ -212,7 +212,7 @@ class _HomeScreenState extends State<HomeScreen> {
               }),
           ItemCategoryHome(
               image: "assets/images/functionlibiral.png",
-              text: "Maintenance".tr(),
+              text: "المهن الحرة".tr(),
               onPress: () {
                 if(Common.TYPE_ACCOUNT=="prof"){
                   print(Common.TYPE_ACCOUNT);

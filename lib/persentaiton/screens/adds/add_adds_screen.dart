@@ -138,8 +138,10 @@ class _AddAddsScreenState extends State<AddAddsScreen> {
                     builder: (context, state) {
                       return Column(
                         children: [
-                          SizedBox(
-                            width: 220,
+                          Container(
+                            margin: EdgeInsets.symmetric(horizontal: 20),
+                            width:double.infinity,
+
                             child: CustomDropDownWidget(
                                 currentValue:
                                     CategoryCubit.get(context).currentCategory,
@@ -170,8 +172,9 @@ class _AddAddsScreenState extends State<AddAddsScreen> {
                                   color: Colors.black,
                                   strokeWidth: 3,
                                 )
-                              : SizedBox(
-                                  width: 220,
+                              : Container(
+                            margin: EdgeInsets.symmetric(horizontal: 20),
+                                  width:double.infinity,
                                   child: CustomDropDownWidgetSub(
                                       currentValue: CategoryCubit.get(context)
                                           .subCategoryResponse,
@@ -189,7 +192,7 @@ class _AddAddsScreenState extends State<AddAddsScreen> {
                                             .changeValueDropSubCategoryResponse(
                                                 value);
                                       },
-                                      hint: "Select Category".tr()),
+                                      hint: "اختار القسم الفرعي".tr()),
                                 ),
                         ],
                       );

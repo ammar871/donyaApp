@@ -8,7 +8,10 @@
   "Place an Ad": "اضافة اعلان",
   "search": "عن ماذا تبحث",
   "the search": "البحث",
-  "Select Category": "اختار قسم",
+  "Select Category": "اختار القسم الرئيسي",
+  "اختار القسم الفرعي": "اختار القسم الفرعى",
+
+
   "login": "تسجيل الدخول",
   "This service will be available soon": "هذه الخدمة ستكون متاحة قريبا",
   "All rights reserved © 2021": "جميع الحقوق محفوظة © 2021",
